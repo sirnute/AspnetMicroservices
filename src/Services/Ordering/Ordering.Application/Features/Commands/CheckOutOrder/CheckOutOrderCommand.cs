@@ -9,7 +9,6 @@ namespace Ordering.Application.Features.Commands.CheckOutOrder
 {
     public class CheckOutOrderCommand : IRequest<int>
     {
-        public int Id { get; set; }
         public string UserName { get; set; }
         public decimal TotalPrice { get; set; }
 
